@@ -1,0 +1,6 @@
+# Vim swp files
+*.swp
+
+index.html
+docs.conf
+/*/
