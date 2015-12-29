@@ -9,14 +9,17 @@ After downloading the script, create a file called docs.conf. This will contain
 the websites you want to download. The file should contain a short name and
 the root URL of the website you want to download. both the URL and name should
 not contain any spaces. The format looks like this:
+
     name URL
     another URL
 
 Example that downloads the python2 and python3 docs:
+
     python2 https://docs.python.org/2/
     python3 https://docs.python.org/3/
 
 Then run:
+
     offline-docs-manager.py getnew
 
 A file called index.html is created in the current dirrector. You should open
